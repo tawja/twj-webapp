@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.tawja.platform</groupId>
         <artifactId>parent</artifactId>
-        <version>2015.07.04201706</version>
+        <version>2015.07.06040429</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
     <groupId>org.tawja.platform</groupId>
     <artifactId>twj-webapp</artifactId>
-    <version>2015.07.04205941</version>
+    <version>2015.07.06041930</version>
 	
     <packaging>war</packaging>
 
