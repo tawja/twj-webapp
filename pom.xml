@@ -12,7 +12,7 @@
 	
     <groupId>org.tawja.platform</groupId>
     <artifactId>twj-webapp</artifactId>
-    <version>2015.07.06041930</version>
+    <version>2015.07.06044243</version>
 	
     <packaging>war</packaging>
 
