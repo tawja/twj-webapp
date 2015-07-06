@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.tawja.platform</groupId>
         <artifactId>parent</artifactId>
-        <version>2015.07.06040429</version>
+        <version>2015.07.06174146</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
     <groupId>org.tawja.platform</groupId>
     <artifactId>twj-webapp</artifactId>
-    <version>2015.07.06044243</version>
+    <version>2015.07.06200510</version>
 	
     <packaging>war</packaging>
 
@@ -211,7 +211,7 @@
                 <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </repository>
         <!-- Tawja Releases LTS Repository -->
@@ -223,7 +223,7 @@
                 <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </repository>
     </repositories>
@@ -249,7 +249,7 @@
                 <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </pluginRepository>
         <!-- Tawja Releases LTS Repository -->
@@ -261,7 +261,7 @@
                 <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </pluginRepository>
      </pluginRepositories>
