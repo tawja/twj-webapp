@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 	
     <parent>
-        <groupId>org.tawja.platform.twj-webapp.dist</groupId>
+        <groupId>org.tawja.platform.webapp.dist</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
-    <groupId>org.tawja.platform.twj-webapp.dist</groupId>
+    <groupId>org.tawja.platform.webapp.dist</groupId>
     <artifactId>twj-dist-webapp-std</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 	
@@ -36,7 +36,6 @@
                                 <artifactItem>
                                     <groupId>org.tawja.platform</groupId>
                                     <artifactId>twj-webapp</artifactId>
-                                    <version>1.0.0-SNAPSHOT</version>
                                     <type>zip</type>
                                     <classifier>twj-webapp</classifier>
                                     <includes>**</includes>
@@ -77,16 +76,16 @@
                     </execution>
                 </executions>
             </plugin>
-			<!--
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>${maven-deploy-plugin.version}</version>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-			-->       
+            <!--
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>${maven-deploy-plugin.version}</version>
+    <configuration>
+        <skip>true</skip>
+    </configuration>
+</plugin>
+            -->       
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>wagon-maven-plugin</artifactId>
@@ -117,7 +116,7 @@
                             <displayCommandOutputs>true</displayCommandOutputs>
                             <commands>
                                 <command>unzip -uo ${tawja.deploy.deployPath}/${tawja.deploy.envName}/${organization.domain}/${project.artifactId}-${project.version}-dist.zip -d ${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}</command>
-								<command>mkdir -p ${tawja.deploy.backupPath}/${tawja.deploy.envName}</command>
+                                <command>mkdir -p ${tawja.deploy.backupPath}/${tawja.deploy.envName}</command>
                                 <command>mv ${tawja.deploy.deployPath}/${tawja.deploy.envName}/${organization.domain}/${project.artifactId}-${project.version}-dist.zip ${tawja.deploy.backupPath}/${tawja.deploy.envName}/${organization.domain}</command>
                             </commands>
                         </configuration>
@@ -127,4 +126,14 @@
         </plugins>
     </build>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.tawja.platform</groupId>
+                <artifactId>twj-webapp</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+	
 </project>

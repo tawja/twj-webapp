@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 	
     <parent>
-        <groupId>org.tawja.platform</groupId>
-        <artifactId>twj-webapp</artifactId>
+        <groupId>org.tawja.platform.webapp</groupId>
+        <artifactId>parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
-    <groupId>org.tawja.platform.twj-webapp.dist</groupId>
+    <groupId>org.tawja.platform.webapp.dist</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 	
@@ -18,7 +18,7 @@
 
     <name>Tawja : Platform : WebApp : Distribution</name>
 
-    <url>${project.organization.url}/project/platform/twj-webapp/dist</url>
+    <url>${project.organization.url}/project/platform/webapp/dist</url>
 
     <modules>
         <module>twj-dist-webapp-std</module>
@@ -28,7 +28,7 @@
         <site>
             <id>tawja-website</id>
             <name>Tawja Documentation Website</name>
-            <url>${tawja.deploy.site.protocol}://${tawja.deploy.site.host}${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}/project/platform/twj-webapp/dist</url>
+            <url>${tawja.deploy.site.protocol}://${tawja.deploy.site.host}${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}/project/platform/webapp/dist</url>
         </site>
     </distributionManagement>
 
