@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.tawja.platform.webapp</groupId>
         <artifactId>parent</artifactId>
-        <version>2015.07.07140805</version>
+        <version>2015.07.07144640</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
     <groupId>org.tawja.platform.webapp</groupId>
     <artifactId>twj-webapp-impl</artifactId>
-    <version>2015.07.07140805</version>
+    <version>2015.07.07144640</version>
 	
     <packaging>war</packaging>
 
@@ -167,83 +167,6 @@
             </plugin>
         </plugins>
     </build>
-	
-    <repositories>
-        <!-- Tawja Snapshots Repository -->
-        <repository> 
-            <id>twj-snapshots-repository</id> 
-            <name>Tawja Snapshots Repository</name>
-            <url>http://www.tawja.org/repo/maven/snapshots</url> 
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <!-- Tawja Releases Repository -->
-        <repository> 
-            <id>twj-releases-repository</id> 
-            <name>Tawja Releases Repository</name>
-            <url>http://www.tawja.org/repo/maven/releases</url> 
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <!-- Tawja Releases LTS Repository -->
-        <repository> 
-            <id>twj-releases-lts-repository</id> 
-            <name>Tawja Releases LTS Repository</name>
-            <url>http://repo.tawja.org/maven/releases</url> 
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <!-- Tawja Snapshots Repository -->
-        <pluginRepository> 
-            <id>twj-snapshots-repository</id> 
-            <name>Tawja Snapshots Repository</name>
-            <url>http://www.tawja.org/repo/maven/snapshots</url> 
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-        <!-- Tawja Releases Repository -->
-        <pluginRepository> 
-            <id>twj-releases-repository</id> 
-            <name>Tawja Releases Repository</name>
-            <url>http://www.tawja.org/repo/maven/releases</url> 
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-        <!-- Tawja Releases LTS Repository -->
-        <pluginRepository> 
-            <id>twj-releases-lts-repository</id> 
-            <name>Tawja Releases LTS Repository</name>
-            <url>http://repo.tawja.org/maven/releases</url> 
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
 	 
     <dependencyManagement>
         <dependencies>
