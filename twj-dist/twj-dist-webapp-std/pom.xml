@@ -34,8 +34,8 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>org.tawja.platform</groupId>
-                                    <artifactId>twj-webapp</artifactId>
+                                    <groupId>org.tawja.platform.webapp</groupId>
+                                    <artifactId>twj-webapp-impl</artifactId>
                                     <type>zip</type>
                                     <classifier>twj-webapp</classifier>
                                     <includes>**</includes>
