@@ -129,8 +129,8 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.tawja.platform</groupId>
-                <artifactId>twj-webapp</artifactId>
+				<groupId>org.tawja.platform.webapp</groupId>
+				<artifactId>twj-webapp-impl</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
