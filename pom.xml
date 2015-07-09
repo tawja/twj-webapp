@@ -22,6 +22,8 @@
 
     <modules>
         <module>twj-webapp-impl</module>
+        <!-- Skipped by the factory during build, but used for versions update -->
+        <module>twj-dist</module>
     </modules>
 
     <properties>
