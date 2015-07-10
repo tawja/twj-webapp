@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.tawja.platform.webapp.dist</groupId>
         <artifactId>parent</artifactId>
-        <version>2015.07.09054234</version>
+        <version>2015.07.10165919</version>
         <!--<relativePath>../pom.xml</relativePath>-->
     </parent>
 	
     <groupId>org.tawja.platform.webapp.dist</groupId>
     <artifactId>twj-dist-webapp-std</artifactId>
-    <version>2015.07.09054234</version>
+    <version>2015.07.10165919</version>
 	
     <packaging>pom</packaging>
 
@@ -131,7 +131,7 @@
             <dependency>
 				<groupId>org.tawja.platform.webapp</groupId>
 				<artifactId>twj-webapp-impl</artifactId>
-                <version>2015.07.09054234</version>
+                <version>2015.07.10165919</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
